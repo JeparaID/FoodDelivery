@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FoodDelivery</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="login">Sign IN</string>
+    <string name="register">Sign Up</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="burger">Bakery dan Snack</string>
+    <string name="padang">Indonesian, Padang</string>
+    <string name="malang">Indonesian</string>
+</resources>

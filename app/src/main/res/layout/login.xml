@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/foodle"
+    android:id="@+id/nestedscrollview"
+    tools:context=".activity.LoginActivity">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="32dp"
+            android:layout_marginLeft="32dp"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+            
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/text_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/username_rounded"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="20dp"
+                android:id="@+id/textInputLayoutPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_marginTop="30dp"
+                android:id="@+id/text_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/password_rounded"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_marginTop="90dp"
+                android:id="@+id/button_login"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_rounded_accent"
+                android:text="@string/login"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have account?"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/create"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create one now"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v4.widget.NestedScrollView>

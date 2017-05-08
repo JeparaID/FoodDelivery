@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="username_rounded">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edittext_rounded_white</item>
+        <item name="android:drawableLeft">@drawable/ic_email_black_24dp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:drawableTint" tools:ignore="NewApi">@color/black</item>
+        <item name="android:hint">Username</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+    </style>
+    <style name="password_rounded">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edittext_rounded_white</item>
+        <item name="android:drawableLeft">@drawable/ic_lock_outline_black_24dp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:drawableTint" tools:ignore="NewApi">@color/black</item>
+        <item name="android:hint">Password</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+    </style>
+    <style name="edit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edittext_rounded_white</item>
+        <item name="android:drawablePadding">16dp</item>
+    </style>
+
+    <style name="edittext_rounded">
+        <item name="android:shape">rectangle</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:left">8dp</item>
+        <item name="android:right">20dp</item>
+        <item name="android:bottom">8dp</item>
+        <item name="android:radius">16dp</item>
+    </style>
+
+</resources>

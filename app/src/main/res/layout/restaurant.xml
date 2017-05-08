@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/toolbar"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:background="@drawable/hitam"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/imageButton"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:background="@drawable/burger"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/imageView" />
+            <ImageView
+                android:background="@drawable/ic_access_time_black_24dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="95dp"
+                android:id="@+id/imageView2"
+                android:layout_marginLeft="35dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:background="@drawable/burgersoda"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="1dp"
+                android:id="@+id/imageView3"
+                android:layout_alignRight="@+id/imageView2"
+                 android:layout_alignEnd="@+id/imageView2"
+                android:layout_alignLeft="@+id/imageView2"
+                android:layout_alignStart="@+id/imageView2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:00 - 18:00"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:id="@+id/textView"
+                android:layout_above="@+id/imageView3"
+                android:layout_toRightOf="@+id/imageView2"
+                android:layout_toEndOf="@+id/imageView2" />
+            <TextView
+                android:textSize="14dp"
+                android:textColor="@color/white"
+                android:text="@string/burger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_alignLeft="@+id/textView"
+                android:layout_alignStart="@+id/textView" />
+            <LinearLayout
+                android:background="#ccc"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/imageButton">
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/backgroundpdg"
+                android:background="@drawable/sarasopadang"
+                android:layout_width="match_parent"
+                android:layout_height="220dp" />
+
+            <ImageView
+                android:id="@+id/imagesaraso"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:background="@drawable/saraso"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp" />
+
+            <ImageView
+                android:background="@drawable/ic_access_time_black_24dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="80dp"
+                android:id="@+id/imagetime"
+                android:layout_marginLeft="35dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/imagesaraso"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:background="@drawable/burgersoda"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/imagetime"
+                android:layout_alignLeft="@+id/imagetime"
+                android:layout_alignStart="@+id/imagetime"
+                android:layout_marginTop="1dp"
+                android:id="@+id/burgersoda"
+                android:layout_alignRight="@+id/imagetime"
+                android:layout_alignEnd="@+id/imagetime" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:00 - 18:00"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:id="@+id/waktu"
+                android:layout_above="@+id/burgersoda"
+                android:layout_toRightOf="@+id/imagetime"
+                android:layout_toEndOf="@+id/imagetime" />
+            <TextView
+                android:textSize="14dp"
+                android:textColor="@color/white"
+                android:text="@string/padang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/burgersoda"
+                android:layout_alignLeft="@+id/waktu"
+                android:layout_alignStart="@+id/waktu" />
+            <LinearLayout
+                android:background="#ccc"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/backgroundpdg">
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="@drawable/malang"/>
+
+            <ImageView
+                android:id="@+id/imagemalang"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:background="@drawable/depotmalang"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp" />
+
+            <ImageView
+                android:background="@drawable/ic_access_time_black_24dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="80dp"
+                android:id="@+id/imagetime3"
+                android:layout_marginLeft="35dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/imagemalang"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:background="@drawable/burgersoda"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/imagetime3"
+                android:layout_alignLeft="@+id/imagetime3"
+                android:layout_alignStart="@+id/imagetime3"
+                android:layout_marginTop="1dp"
+                android:id="@+id/burgersoda3"
+                android:layout_alignRight="@+id/imagetime3"
+                android:layout_alignEnd="@+id/imagetime3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:00 - 18:00"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:id="@+id/waktu3"
+                android:layout_above="@+id/burgersoda3"
+                android:layout_toRightOf="@+id/imagetime3"
+                android:layout_toEndOf="@+id/imagetime3" />
+            <TextView
+                android:textSize="14dp"
+                android:textColor="@color/white"
+                android:text="@string/malang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/burgersoda3"
+                android:layout_alignLeft="@+id/waktu3"
+                android:layout_alignStart="@+id/waktu3" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
